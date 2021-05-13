@@ -1,0 +1,19 @@
+Win10, anaconda3, Intel i7 10700, GPU 2070super 
+In this project, GPU is necessary.
+Install and environment part
+
+conda create -n backdoor python=3.7
+conda activate backdoor
+conda install pytorch==1.0.0 torchvision==0.2.1 cuda100 -c pytorch
+pip install visdom
+pip install tqdm
+pip install PyYAML
+conda deactivate
+
+Play:
+conda activate backdoor
+python -m visdom.server # Keep this window on and create another window, then
+conda activate backdoor 
+cd backdoor_federated_learning-master
+python training.py
+
