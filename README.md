@@ -1,5 +1,6 @@
 # backdoor_federated_learning
 This project reproduces some of the results of "How to Backdoor Federated Learning"(https://arxiv.org/abs/1807.00459) and supplements some parameter settings in the yaml file of the original project(https://github.com/ebagdasa/backdoor_federated_learning)
+Don't hesitate to contact me for more details. (m13041170857@163.com)
 # Environment_setting
 For the environment, follow the steps.txt. 
 
