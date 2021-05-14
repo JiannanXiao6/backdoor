@@ -24,6 +24,9 @@ conda deactivate
 # Running
 **Play:**
 
+`mkdir save_models/recover`  
+put the resumed model at recover directory
+
 ```python
 conda activate backdoor  
 python -m visdom.server # Keep this window on and create another window, then
