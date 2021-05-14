@@ -37,7 +37,7 @@ cd backdoor_federated_learning-master
 python training.py
 ```
 
-==training.py== load ==params.yaml== to run a no attack model of background wall. if you want to run for other kind of no attack model, change the poison_images_test and poison_images to target poison images. Changing epochs and save_on_epochs help to save model on different epochs.
+`training.py` load `params.yaml` to run a no attack model of background wall. if you want to run for other kind of no attack model, change the poison_images_test and poison_images to target poison images. Changing epochs and save_on_epochs help to save model on different epochs.
 
 2.Green Car Backdoor attack:  
 
